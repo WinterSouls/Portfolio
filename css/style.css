@@ -1,0 +1,39 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background: linear-gradient(135deg, #0062cc, #00b4db);
+}
+
+/* Estilos para cards de projetos */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Estilos para o rodapé */
+footer a:hover {
+    color: #80bdff !important;
+}
+
+/* Responsividade adicional */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
